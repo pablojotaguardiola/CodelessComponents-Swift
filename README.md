@@ -12,5 +12,7 @@ Add elements to your proyect with write eny code.
 4- In the same tag, you optionally can add a image as Thumb. In "Image View" section.<br>
 4- Build!<br><br>
 
+![Alt text](ReadmeImages/screen1.png?raw=true "Title")
+
 
 
