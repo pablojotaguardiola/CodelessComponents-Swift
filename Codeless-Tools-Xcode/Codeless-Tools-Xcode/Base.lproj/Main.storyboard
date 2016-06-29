@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ThumbInternetVideo.png" translatesAutoresizingMaskIntoConstraints="NO" id="2a2-U1-ENX" customClass="VideoFromURL" customModule="Codeless_Tools_Xcode" customModuleProvider="target">
-                                <rect key="frame" x="180" y="20" width="240.5" height="160.5"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ThumbInternetVideo.png" translatesAutoresizingMaskIntoConstraints="NO" id="2a2-U1-ENX" customClass="VideoFromURL" customModule="Codeless_Tools_Xcode" customModuleProvider="target">
+                                <rect key="frame" x="180" y="220" width="240.5" height="160.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="2a2-U1-ENX" secondAttribute="height" multiplier="3:2" id="3Oh-db-vKo"/>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="1000" id="r4R-Fl-0mU"/>
@@ -66,14 +66,20 @@
                                     <rect key="frame" x="280" y="576" width="110" height="14.5"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image from internet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2oM-Pa-Yf9">
-                                <rect key="frame" x="180" y="575" width="112" height="15"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Video from internet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="msN-yl-Lxw">
+                                <rect key="frame" x="180" y="388" width="110" height="14.5"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ayq-sM-KZE" customClass="ImageFromURL" customModule="Codeless_Tools_Xcode" customModuleProvider="target">
-                                <rect key="frame" x="180" y="407" width="240.5" height="160"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Image from internet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2oM-Pa-Yf9">
+                                <rect key="frame" x="180" y="188" width="112" height="15"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ayq-sM-KZE" customClass="ImageFromURL" customModule="Codeless_Tools_Xcode" customModuleProvider="target">
+                                <rect key="frame" x="180" y="20" width="240.5" height="160"/>
                                 <color key="backgroundColor" red="0.67435657979999997" green="0.6166728735" blue="0.98997300860000004" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ayq-sM-KZE" secondAttribute="height" multiplier="3:2" id="33M-Au-Ebv"/>
@@ -83,12 +89,6 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="url" value="http://pabloguardiola.es/img/portfolio/ariskiicon.jpg"/>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video from internet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="msN-yl-Lxw">
-                                <rect key="frame" x="180" y="188.5" width="110" height="14.5"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
