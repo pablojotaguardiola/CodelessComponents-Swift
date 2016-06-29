@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:AppBuilder.xcodeproj">
+      location = "self:Codeless-Tools-Xcode.xcodeproj">
    </FileRef>
 </Workspace>

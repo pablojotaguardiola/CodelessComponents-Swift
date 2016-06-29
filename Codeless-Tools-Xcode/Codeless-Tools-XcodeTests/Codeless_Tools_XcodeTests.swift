@@ -1,15 +1,15 @@
 //
-//  AppBuilderTests.swift
-//  AppBuilderTests
+//  Codeless_Tools_XcodeTests.swift
+//  Codeless-Tools-XcodeTests
 //
-//  Created by Pablo Guardiola on 21/04/16.
+//  Created by Pablo Guardiola on 29/06/16.
 //  Copyright © 2016 Pablo Guardiola. All rights reserved.
 //
 
 import XCTest
-@testable import AppBuilder
+@testable import Codeless_Tools_Xcode
 
-class AppBuilderTests: XCTestCase {
+class Codeless_Tools_XcodeTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

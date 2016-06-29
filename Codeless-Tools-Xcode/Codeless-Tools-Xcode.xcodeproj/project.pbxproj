@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8111FDD11D24466200C54031 /* ThumbInternetVideo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8111FDCE1D24466200C54031 /* ThumbInternetVideo.png */; };
+		8111FDD21D24466200C54031 /* ThumbLocalVideo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8111FDCF1D24466200C54031 /* ThumbLocalVideo.png */; };
+		8111FDD31D24466200C54031 /* LocalVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8111FDD01D24466200C54031 /* LocalVideo.mp4 */; };
+		8111FDD81D24469E00C54031 /* ImageFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8111FDD51D24469E00C54031 /* ImageFromURL.swift */; };
+		8111FDD91D24469E00C54031 /* VideoFromLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8111FDD61D24469E00C54031 /* VideoFromLocal.swift */; };
+		8111FDDA1D24469E00C54031 /* VideoFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8111FDD71D24469E00C54031 /* VideoFromURL.swift */; };
+		81C264841D24462200E333E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C264831D24462200E333E9 /* AppDelegate.swift */; };
+		81C264861D24462200E333E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C264851D24462200E333E9 /* ViewController.swift */; };
+		81C264891D24462200E333E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C264871D24462200E333E9 /* Main.storyboard */; };
+		81C2648B1D24462200E333E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C2648A1D24462200E333E9 /* Assets.xcassets */; };
+		81C2648E1D24462200E333E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C2648C1D24462200E333E9 /* LaunchScreen.storyboard */; };
+		81C264991D24462200E333E9 /* Codeless_Tools_XcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C264981D24462200E333E9 /* Codeless_Tools_XcodeTests.swift */; };
+		81C264A41D24462200E333E9 /* Codeless_Tools_XcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C264A31D24462200E333E9 /* Codeless_Tools_XcodeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81C264951D24462200E333E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81C264781D24462200E333E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81C2647F1D24462200E333E9;
+			remoteInfo = "Codeless-Tools-Xcode";
+		};
+		81C264A01D24462200E333E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81C264781D24462200E333E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81C2647F1D24462200E333E9;
+			remoteInfo = "Codeless-Tools-Xcode";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8111FDCE1D24466200C54031 /* ThumbInternetVideo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ThumbInternetVideo.png; sourceTree = "<group>"; };
+		8111FDCF1D24466200C54031 /* ThumbLocalVideo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ThumbLocalVideo.png; sourceTree = "<group>"; };
+		8111FDD01D24466200C54031 /* LocalVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = LocalVideo.mp4; sourceTree = "<group>"; };
+		8111FDD51D24469E00C54031 /* ImageFromURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFromURL.swift; sourceTree = "<group>"; };
+		8111FDD61D24469E00C54031 /* VideoFromLocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoFromLocal.swift; sourceTree = "<group>"; };
+		8111FDD71D24469E00C54031 /* VideoFromURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoFromURL.swift; sourceTree = "<group>"; };
+		81C264801D24462200E333E9 /* Codeless-Tools-Xcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Codeless-Tools-Xcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C264831D24462200E333E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81C264851D24462200E333E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81C264881D24462200E333E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81C2648A1D24462200E333E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81C2648D1D24462200E333E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81C2648F1D24462200E333E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C264941D24462200E333E9 /* Codeless-Tools-XcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Codeless-Tools-XcodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C264981D24462200E333E9 /* Codeless_Tools_XcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codeless_Tools_XcodeTests.swift; sourceTree = "<group>"; };
+		81C2649A1D24462200E333E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C2649F1D24462200E333E9 /* Codeless-Tools-XcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Codeless-Tools-XcodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C264A31D24462200E333E9 /* Codeless_Tools_XcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Codeless_Tools_XcodeUITests.swift; sourceTree = "<group>"; };
+		81C264A51D24462200E333E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81C2647D1D24462200E333E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C264911D24462200E333E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C2649C1D24462200E333E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8111FDD41D24469E00C54031 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				8111FDD51D24469E00C54031 /* ImageFromURL.swift */,
+				8111FDD61D24469E00C54031 /* VideoFromLocal.swift */,
+				8111FDD71D24469E00C54031 /* VideoFromURL.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		81C264771D24462200E333E9 = {
+			isa = PBXGroup;
+			children = (
+				81C264821D24462200E333E9 /* Codeless-Tools-Xcode */,
+				81C264971D24462200E333E9 /* Codeless-Tools-XcodeTests */,
+				81C264A21D24462200E333E9 /* Codeless-Tools-XcodeUITests */,
+				81C264811D24462200E333E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81C264811D24462200E333E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81C264801D24462200E333E9 /* Codeless-Tools-Xcode.app */,
+				81C264941D24462200E333E9 /* Codeless-Tools-XcodeTests.xctest */,
+				81C2649F1D24462200E333E9 /* Codeless-Tools-XcodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81C264821D24462200E333E9 /* Codeless-Tools-Xcode */ = {
+			isa = PBXGroup;
+			children = (
+				8111FDD41D24469E00C54031 /* Tools */,
+				8111FDCE1D24466200C54031 /* ThumbInternetVideo.png */,
+				8111FDCF1D24466200C54031 /* ThumbLocalVideo.png */,
+				8111FDD01D24466200C54031 /* LocalVideo.mp4 */,
+				81C264831D24462200E333E9 /* AppDelegate.swift */,
+				81C264851D24462200E333E9 /* ViewController.swift */,
+				81C264871D24462200E333E9 /* Main.storyboard */,
+				81C2648A1D24462200E333E9 /* Assets.xcassets */,
+				81C2648C1D24462200E333E9 /* LaunchScreen.storyboard */,
+				81C2648F1D24462200E333E9 /* Info.plist */,
+			);
+			path = "Codeless-Tools-Xcode";
+			sourceTree = "<group>";
+		};
+		81C264971D24462200E333E9 /* Codeless-Tools-XcodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				81C264981D24462200E333E9 /* Codeless_Tools_XcodeTests.swift */,
+				81C2649A1D24462200E333E9 /* Info.plist */,
+			);
+			path = "Codeless-Tools-XcodeTests";
+			sourceTree = "<group>";
+		};
+		81C264A21D24462200E333E9 /* Codeless-Tools-XcodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81C264A31D24462200E333E9 /* Codeless_Tools_XcodeUITests.swift */,
+				81C264A51D24462200E333E9 /* Info.plist */,
+			);
+			path = "Codeless-Tools-XcodeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81C2647F1D24462200E333E9 /* Codeless-Tools-Xcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C264A81D24462200E333E9 /* Build configuration list for PBXNativeTarget "Codeless-Tools-Xcode" */;
+			buildPhases = (
+				81C2647C1D24462200E333E9 /* Sources */,
+				81C2647D1D24462200E333E9 /* Frameworks */,
+				81C2647E1D24462200E333E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Codeless-Tools-Xcode";
+			productName = "Codeless-Tools-Xcode";
+			productReference = 81C264801D24462200E333E9 /* Codeless-Tools-Xcode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81C264931D24462200E333E9 /* Codeless-Tools-XcodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C264AB1D24462200E333E9 /* Build configuration list for PBXNativeTarget "Codeless-Tools-XcodeTests" */;
+			buildPhases = (
+				81C264901D24462200E333E9 /* Sources */,
+				81C264911D24462200E333E9 /* Frameworks */,
+				81C264921D24462200E333E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81C264961D24462200E333E9 /* PBXTargetDependency */,
+			);
+			name = "Codeless-Tools-XcodeTests";
+			productName = "Codeless-Tools-XcodeTests";
+			productReference = 81C264941D24462200E333E9 /* Codeless-Tools-XcodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81C2649E1D24462200E333E9 /* Codeless-Tools-XcodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C264AE1D24462200E333E9 /* Build configuration list for PBXNativeTarget "Codeless-Tools-XcodeUITests" */;
+			buildPhases = (
+				81C2649B1D24462200E333E9 /* Sources */,
+				81C2649C1D24462200E333E9 /* Frameworks */,
+				81C2649D1D24462200E333E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81C264A11D24462200E333E9 /* PBXTargetDependency */,
+			);
+			name = "Codeless-Tools-XcodeUITests";
+			productName = "Codeless-Tools-XcodeUITests";
+			productReference = 81C2649F1D24462200E333E9 /* Codeless-Tools-XcodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81C264781D24462200E333E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pablo Guardiola";
+				TargetAttributes = {
+					81C2647F1D24462200E333E9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					81C264931D24462200E333E9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 81C2647F1D24462200E333E9;
+					};
+					81C2649E1D24462200E333E9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 81C2647F1D24462200E333E9;
+					};
+				};
+			};
+			buildConfigurationList = 81C2647B1D24462200E333E9 /* Build configuration list for PBXProject "Codeless-Tools-Xcode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81C264771D24462200E333E9;
+			productRefGroup = 81C264811D24462200E333E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81C2647F1D24462200E333E9 /* Codeless-Tools-Xcode */,
+				81C264931D24462200E333E9 /* Codeless-Tools-XcodeTests */,
+				81C2649E1D24462200E333E9 /* Codeless-Tools-XcodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81C2647E1D24462200E333E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8111FDD21D24466200C54031 /* ThumbLocalVideo.png in Resources */,
+				81C2648E1D24462200E333E9 /* LaunchScreen.storyboard in Resources */,
+				8111FDD11D24466200C54031 /* ThumbInternetVideo.png in Resources */,
+				8111FDD31D24466200C54031 /* LocalVideo.mp4 in Resources */,
+				81C2648B1D24462200E333E9 /* Assets.xcassets in Resources */,
+				81C264891D24462200E333E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C264921D24462200E333E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C2649D1D24462200E333E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81C2647C1D24462200E333E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C264861D24462200E333E9 /* ViewController.swift in Sources */,
+				8111FDD91D24469E00C54031 /* VideoFromLocal.swift in Sources */,
+				8111FDD81D24469E00C54031 /* ImageFromURL.swift in Sources */,
+				81C264841D24462200E333E9 /* AppDelegate.swift in Sources */,
+				8111FDDA1D24469E00C54031 /* VideoFromURL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C264901D24462200E333E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C264991D24462200E333E9 /* Codeless_Tools_XcodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C2649B1D24462200E333E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C264A41D24462200E333E9 /* Codeless_Tools_XcodeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81C264961D24462200E333E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81C2647F1D24462200E333E9 /* Codeless-Tools-Xcode */;
+			targetProxy = 81C264951D24462200E333E9 /* PBXContainerItemProxy */;
+		};
+		81C264A11D24462200E333E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81C2647F1D24462200E333E9 /* Codeless-Tools-Xcode */;
+			targetProxy = 81C264A01D24462200E333E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81C264871D24462200E333E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81C264881D24462200E333E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81C2648C1D24462200E333E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81C2648D1D24462200E333E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81C264A61D24462200E333E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81C264A71D24462200E333E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81C264A91D24462200E333E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Codeless-Tools-Xcode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pablojota.Codeless-Tools-Xcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81C264AA1D24462200E333E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Codeless-Tools-Xcode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pablojota.Codeless-Tools-Xcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		81C264AC1D24462200E333E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Codeless-Tools-XcodeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pablojota.Codeless-Tools-XcodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Codeless-Tools-Xcode.app/Codeless-Tools-Xcode";
+			};
+			name = Debug;
+		};
+		81C264AD1D24462200E333E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Codeless-Tools-XcodeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pablojota.Codeless-Tools-XcodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Codeless-Tools-Xcode.app/Codeless-Tools-Xcode";
+			};
+			name = Release;
+		};
+		81C264AF1D24462200E333E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Codeless-Tools-XcodeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pablojota.Codeless-Tools-XcodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Codeless-Tools-Xcode";
+			};
+			name = Debug;
+		};
+		81C264B01D24462200E333E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Codeless-Tools-XcodeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pablojota.Codeless-Tools-XcodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Codeless-Tools-Xcode";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81C2647B1D24462200E333E9 /* Build configuration list for PBXProject "Codeless-Tools-Xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C264A61D24462200E333E9 /* Debug */,
+				81C264A71D24462200E333E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C264A81D24462200E333E9 /* Build configuration list for PBXNativeTarget "Codeless-Tools-Xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C264A91D24462200E333E9 /* Debug */,
+				81C264AA1D24462200E333E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C264AB1D24462200E333E9 /* Build configuration list for PBXNativeTarget "Codeless-Tools-XcodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C264AC1D24462200E333E9 /* Debug */,
+				81C264AD1D24462200E333E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C264AE1D24462200E333E9 /* Build configuration list for PBXNativeTarget "Codeless-Tools-XcodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C264AF1D24462200E333E9 /* Debug */,
+				81C264B01D24462200E333E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81C264781D24462200E333E9 /* Project object */;
+}
