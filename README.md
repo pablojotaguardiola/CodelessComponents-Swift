@@ -1,11 +1,9 @@
 # Codeless Tools
 Add elements to your proyect with write eny code.
 
-####·Load and play videos from URL.
-####·Load and play videos from local path.
-####·Load and show images from URL.
-####·All without any code!
-####·More components coming up...
+#####Load videos and images from URL, and videos from local path, all without any code!
+
+####·More components soon...
 
 ##Installation
 1- Add "Tools" folder to your proyect.
