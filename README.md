@@ -36,5 +36,13 @@ Add components to your proyect without write any code.
 
 ![Alt text](ReadmeImages/Screen3.png?raw=true "Title")
 
+##WebView from URL
+1- Drag and drop a WebView to your Storyboard.<br>
+2- Asign WebViewFromURL.swift as WebView class in "Identity inspector" tag.<br>
+3- Set Url in "Attributes Inspector" tag.<br>
+4- Build!<br><br>
+
+![Alt text](ReadmeImages/Screen4.png?raw=true "Title")
+
 
 
