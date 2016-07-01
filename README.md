@@ -3,7 +3,7 @@ Add components to your proyect without write any code.
 
 #####Load videos and images from URL, and videos from local path, all without any code!
 
-####·More components soon...
+####· More components soon...
 
 ##Installation
 1- Add "Tools" folder to your proyect.
