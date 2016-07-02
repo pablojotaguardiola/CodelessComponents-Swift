@@ -1,9 +1,12 @@
 # Codeless Tools
 Add components to your proyect without write any code.
 
-#####Load videos and images from URL, and videos from local path, all without any code!
-
-####· More components soon...
+#####· Video from URL
+#####· Video from local path
+#####· Image from URL
+#####· WebView from URL
+#####· MapView from Latitude and Longitude
+#####· More components soon...
 
 ##Installation
 1- Add "Tools" folder to your proyect.
