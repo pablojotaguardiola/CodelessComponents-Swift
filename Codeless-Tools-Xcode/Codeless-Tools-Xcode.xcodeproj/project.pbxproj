@@ -13,6 +13,8 @@
 		8111FDD81D24469E00C54031 /* ImageFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8111FDD51D24469E00C54031 /* ImageFromURL.swift */; };
 		8111FDD91D24469E00C54031 /* VideoFromLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8111FDD61D24469E00C54031 /* VideoFromLocal.swift */; };
 		8111FDDA1D24469E00C54031 /* VideoFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8111FDD71D24469E00C54031 /* VideoFromURL.swift */; };
+		81136A911D280B740032A9CF /* CustomizableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81136A901D280B740032A9CF /* CustomizableImage.swift */; };
+		81419CB81D27D4E8000B8391 /* MapKitFromLatLong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81419CB71D27D4E8000B8391 /* MapKitFromLatLong.swift */; };
 		815D36E01D27331000BDADFF /* WebViewFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815D36DF1D27331000BDADFF /* WebViewFromURL.swift */; };
 		81C264841D24462200E333E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C264831D24462200E333E9 /* AppDelegate.swift */; };
 		81C264861D24462200E333E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C264851D24462200E333E9 /* ViewController.swift */; };
@@ -47,6 +49,8 @@
 		8111FDD51D24469E00C54031 /* ImageFromURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFromURL.swift; sourceTree = "<group>"; };
 		8111FDD61D24469E00C54031 /* VideoFromLocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoFromLocal.swift; sourceTree = "<group>"; };
 		8111FDD71D24469E00C54031 /* VideoFromURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoFromURL.swift; sourceTree = "<group>"; };
+		81136A901D280B740032A9CF /* CustomizableImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizableImage.swift; sourceTree = "<group>"; };
+		81419CB71D27D4E8000B8391 /* MapKitFromLatLong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapKitFromLatLong.swift; sourceTree = "<group>"; };
 		815D36DF1D27331000BDADFF /* WebViewFromURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewFromURL.swift; sourceTree = "<group>"; };
 		81C264801D24462200E333E9 /* Codeless-Tools-Xcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Codeless-Tools-Xcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C264831D24462200E333E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 				8111FDD61D24469E00C54031 /* VideoFromLocal.swift */,
 				8111FDD71D24469E00C54031 /* VideoFromURL.swift */,
 				815D36DF1D27331000BDADFF /* WebViewFromURL.swift */,
+				81419CB71D27D4E8000B8391 /* MapKitFromLatLong.swift */,
+				81136A901D280B740032A9CF /* CustomizableImage.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -290,10 +296,12 @@
 			files = (
 				81C264861D24462200E333E9 /* ViewController.swift in Sources */,
 				815D36E01D27331000BDADFF /* WebViewFromURL.swift in Sources */,
+				81419CB81D27D4E8000B8391 /* MapKitFromLatLong.swift in Sources */,
 				8111FDD91D24469E00C54031 /* VideoFromLocal.swift in Sources */,
 				8111FDD81D24469E00C54031 /* ImageFromURL.swift in Sources */,
 				81C264841D24462200E333E9 /* AppDelegate.swift in Sources */,
 				8111FDDA1D24469E00C54031 /* VideoFromURL.swift in Sources */,
+				81136A911D280B740032A9CF /* CustomizableImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
