@@ -1,5 +1,5 @@
 # Codeless Tools
-Add components to your proyect without write any code.
+Add components to your proyect without write any code:
 
 #####· Video from URL
 #####· Video from local path
