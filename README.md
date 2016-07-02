@@ -38,11 +38,19 @@ Add components to your proyect without write any code.
 
 ##WebView from URL
 1- Drag and drop a WebView to your Storyboard.<br>
-2- Asign WebViewFromURL.swift as WebView class in "Identity inspector" tag.<br>
+2- Asign WebViewFromURL.swift as UIWebView class in "Identity inspector" tag.<br>
 3- Set Url in "Attributes Inspector" tag.<br>
 4- Build!<br><br>
 
 ![Alt text](ReadmeImages/Screen4.png?raw=true "Title")
+
+##MapView from Latitude and Longitude
+1- Drag and drop a MapView to your Storyboard.<br>
+2- Asign MapViewFromLatLong.swift as MKMapView class in "Identity inspector" tag.<br>
+3- Set Latitude, longitude and the radius of the region in Km, in "Attributes Inspector" tag.<br>
+4- Build!<br><br>
+
+![Alt text](ReadmeImages/Screen5.png?raw=true "Title")
 
 
 
