@@ -19,7 +19,7 @@ Add components to your proyect without write any code:
 4- In the same tag, you optionally can add a image as Thumb. In "Image View" section.<br>
 5- Build!<br><br>
 
-![Alt text](ReadmeImages/Screen1.png?raw=true "Title")
+![Alt text](ReadmeImages/Screen1.png?raw=true "Video URL")
 
 ##Video from local
 1- Drag and drop a ImageView to your Storyboard.<br>
@@ -29,7 +29,7 @@ Add components to your proyect without write any code:
 5- Select your <strong>Project root > your Target > Build Phases > Copy Bundle Resources</strong>. If your video is not listed in this list you should add it using the plus button.
 6- Build!<br><br>
 
-![Alt text](ReadmeImages/Screen2.png?raw=true "Title")
+![Alt text](ReadmeImages/Screen2.png?raw=true "Video Local")
 
 ##Image from URL
 1- Drag and drop a ImageView to your Storyboard.<br>
@@ -37,7 +37,7 @@ Add components to your proyect without write any code:
 3- Set Url in "Attributes Inspector" tag.<br>
 4- Build!<br><br>
 
-![Alt text](ReadmeImages/Screen3.png?raw=true "Title")
+![Alt text](ReadmeImages/Screen3.png?raw=true "Image URL")
 
 ##WebView from URL
 1- Drag and drop a WebView to your Storyboard.<br>
@@ -45,7 +45,7 @@ Add components to your proyect without write any code:
 3- Set Url in "Attributes Inspector" tag.<br>
 4- Build!<br><br>
 
-![Alt text](ReadmeImages/Screen4.png?raw=true "Title")
+![Alt text](ReadmeImages/Screen4.png?raw=true "WebView URL")
 
 ##MapView from Latitude and Longitude
 1- Drag and drop a MapView to your Storyboard.<br>
@@ -53,7 +53,7 @@ Add components to your proyect without write any code:
 3- Set Latitude, longitude and the radius of the region in Km, in "Attributes Inspector" tag.<br>
 4- Build!<br><br>
 
-![Alt text](ReadmeImages/Screen5.png?raw=true "Title")
+![Alt text](ReadmeImages/Screen5.png?raw=true "MapView Lat Long")
 
 
 
