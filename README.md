@@ -6,6 +6,7 @@ Add components to your proyect without write any code:
 #####· Image from URL
 #####· WebView from URL
 #####· MapView from Latitude and Longitude
+#####· Customizable ImageView
 #####· More components soon...
 
 ##Installation
@@ -21,6 +22,7 @@ Add components to your proyect without write any code:
 
 ![Alt text](ReadmeImages/Screen1.png?raw=true "Video URL")
 
+
 ##Video from local
 1- Drag and drop a ImageView to your Storyboard.<br>
 2- Asign VideoFromLocal.swift as ImageView class in "Identity inspector" tag.<br>
@@ -31,6 +33,7 @@ Add components to your proyect without write any code:
 
 ![Alt text](ReadmeImages/Screen2.png?raw=true "Video Local")
 
+
 ##Image from URL
 1- Drag and drop a ImageView to your Storyboard.<br>
 2- Asign ImageFromURL.swift as ImageView class in "Identity inspector" tag.<br>
@@ -38,6 +41,7 @@ Add components to your proyect without write any code:
 4- Build!<br><br>
 
 ![Alt text](ReadmeImages/Screen3.png?raw=true "Image URL")
+
 
 ##WebView from URL
 1- Drag and drop a WebView to your Storyboard.<br>
@@ -47,13 +51,21 @@ Add components to your proyect without write any code:
 
 ![Alt text](ReadmeImages/Screen4.png?raw=true "WebView URL")
 
+
 ##MapView from Latitude and Longitude
 1- Drag and drop a MapView to your Storyboard.<br>
-2- Asign MapViewFromLatLong.swift as MKMapView class in "Identity inspector" tag.<br>
+2- Asign MapViewFromLatLong.swift as MKMapView class in "Identity inspector" tab.<br>
 3- Set Latitude, longitude and the radius of the region in Km, in "Attributes Inspector" tag.<br>
 4- Build!<br><br>
+
 
 ![Alt text](ReadmeImages/Screen5.png?raw=true "MapView Lat Long")
 
 
+##Customizable ImageView
+1- Drag and drop a ImageView to your Storyboard.<br>
+2- Asign CustomizableImage.swift as ImageView class in "Identity inspector" tab.<br>
+3- Configure the ImageView, in "Attributes Inspector" tab.<br>
+4- Build!<br><br>
 
+![Alt text](ReadmeImages/Screen6.png?raw=true "Customizable ImageView")
