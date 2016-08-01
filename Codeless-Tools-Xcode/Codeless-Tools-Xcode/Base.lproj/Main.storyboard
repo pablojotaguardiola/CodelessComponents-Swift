@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bfZ-EL-mT8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xa1-gS-Z5Q">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -199,8 +199,95 @@
             </objects>
             <point key="canvasLocation" x="1808" y="355"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="c9N-y0-SBx">
+            <objects>
+                <viewController id="xa1-gS-Z5Q" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1f0-8a-7sK"/>
+                        <viewControllerLayoutGuide type="bottom" id="5QV-ne-eKu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V2u-mN-XSa">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CustomSample.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bL5-t7-X4Z" customClass="CustomizableImage" customModule="Codeless_Tools_Xcode" customModuleProvider="target">
+                                <rect key="frame" x="175" y="77" width="250.5" height="188"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250.5" id="gqb-5i-Yb8"/>
+                                    <constraint firstAttribute="width" secondItem="bL5-t7-X4Z" secondAttribute="height" multiplier="125:94" id="z5K-cW-F3G"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="mainImage" value="CustomSample.jpg"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="16"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.91216077299999998" green="0.34823231513366476" blue="0.352791107972865" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" cocoaTouchSystemColor="darkTextColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="3" y="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HVa-ac-lYL" customClass="CustomizableImage" customModule="Codeless_Tools_Xcode" customModuleProvider="target">
+                                <rect key="frame" x="175" y="335" width="250.5" height="188"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250.5" id="J8V-L4-1GE"/>
+                                    <constraint firstAttribute="width" secondItem="HVa-ac-lYL" secondAttribute="height" multiplier="125:94" id="qAl-fm-c8C"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="mainImage" value="CustomSample.jpg"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="32"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.089663856910000006" green="0.74922902960000004" blue="0.91216077299999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" cocoaTouchSystemColor="darkTextColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                        <point key="value" x="8" y="-8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.75"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bL5-t7-X4Z" firstAttribute="centerX" secondItem="V2u-mN-XSa" secondAttribute="centerX" id="ABt-qM-8z7"/>
+                            <constraint firstItem="HVa-ac-lYL" firstAttribute="top" secondItem="bL5-t7-X4Z" secondAttribute="bottom" constant="70" id="LzI-nJ-XmB"/>
+                            <constraint firstItem="bL5-t7-X4Z" firstAttribute="top" secondItem="1f0-8a-7sK" secondAttribute="bottom" constant="57" id="cVs-Lt-Vw6"/>
+                            <constraint firstItem="HVa-ac-lYL" firstAttribute="centerX" secondItem="V2u-mN-XSa" secondAttribute="centerX" id="kl0-IW-0ns"/>
+                            <constraint firstItem="HVa-ac-lYL" firstAttribute="width" secondItem="HVa-ac-lYL" secondAttribute="height" multiplier="125:94" id="s4e-K7-p6P"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pa1-fI-NkH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2520" y="355"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="CustomSample.jpg" width="1142" height="857"/>
         <image name="ThumbInternetVideo.png" width="768" height="512"/>
         <image name="ThumbLocalVideo.png" width="768" height="512"/>
     </resources>
