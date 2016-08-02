@@ -17,7 +17,7 @@ Add components to your proyect without write any code:
 1- Drag and drop a ImageView to your Storyboard.<br>
 2- Asign VideoFromURL.swift as ImageView class in "Identity inspector" tab.<br>
 3- Set Url, and video settings in "Attributes Inspector" tab.<br>
-4- In the same tag, you optionally can add a image as Thumb. In "Image View" section.<br>
+4- In the same tab, you optionally can add a image as Thumb. In "Image View" section.<br>
 5- Build!<br><br>
 
 ![Alt text](ReadmeImages/Screen1.png?raw=true "Video URL")
@@ -27,7 +27,7 @@ Add components to your proyect without write any code:
 1- Drag and drop a ImageView to your Storyboard.<br>
 2- Asign VideoFromLocal.swift as ImageView class in "Identity inspector" tab.<br>
 3- Set Video's name, extension and settings in "Attributes Inspector" tab.<br>
-4- In the same tag, you optionally can add a image as Thumb. In "Image View" section.<br>
+4- In the same tab, you optionally can add a image as Thumb. In "Image View" section.<br>
 5- Select your <strong>Project root > your Target > Build Phases > Copy Bundle Resources</strong>. If your video is not listed in this list you should add it using the plus button.
 6- Build!<br><br>
 
