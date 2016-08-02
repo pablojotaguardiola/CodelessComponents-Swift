@@ -13,6 +13,10 @@ Add components to your proyect without write any code:
 1- Add "Tools" folder to your proyect.<br>
 2- Follow the instructions below, to add each element.
 
+##IMPORTANT: You've got to use "https" protocol. To use "http" links, add the field below to "info.plist" file:
+
+![Alt text](ReadmeImages/Screen0.png?raw=true "Info.plist")
+
 ##Video from URL
 1- Drag and drop a ImageView to your Storyboard.<br>
 2- Asign VideoFromURL.swift as ImageView class in "Identity inspector" tab.<br>
