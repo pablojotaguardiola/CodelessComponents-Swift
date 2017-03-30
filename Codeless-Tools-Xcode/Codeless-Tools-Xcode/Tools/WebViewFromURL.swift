@@ -12,11 +12,11 @@ class WebViewFromURL: UIWebView {
     
     @IBInspectable var url: String!
     
-    override func drawRect(rect: CGRect) {
+    override func draw(_ rect: CGRect) {
         // Drawing code
         
         if url != nil && !url.isEmpty {
-            self.loadRequest(NSURLRequest(URL: NSURL(string: url)!))
+            self.loadRequest(URLRequest(url: URL(string: url)!))
         }
     }
 }

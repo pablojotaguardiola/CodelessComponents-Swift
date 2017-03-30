@@ -17,8 +17,8 @@ class VideoFromURL: UIImageView {
     @IBInspectable var autoPlay: Bool = true
     @IBInspectable var playOnTap: Bool = true
     
-    private var showed: Bool = false
-    private var tappedAdded: Bool = false
+    fileprivate var showed: Bool = false
+    fileprivate var tappedAdded: Bool = false
     
     override func didMoveToWindow() {
         if self.autoPlay {
@@ -28,7 +28,7 @@ class VideoFromURL: UIImageView {
         if !tappedAdded {
             tappedAdded = true
             let tap = UITapGestureRecognizer(target: self, action: #selector(viewTapped))
-            self.userInteractionEnabled = true
+            self.isUserInteractionEnabled = true
             self.addGestureRecognizer(tap)
         }
     }
@@ -41,13 +41,13 @@ class VideoFromURL: UIImageView {
     func playVideo() {
         if videoUrl != nil && !showed {
             showed = true
-            let avPlayer = AVPlayer(URL: NSURL(string: videoUrl)!)
+            let avPlayer = AVPlayer(url: URL(string: videoUrl)!)
             let avPlayerViewController = AVPlayerViewController()
             avPlayerViewController.player = avPlayer
             
             let currentController = self.getCurrentViewController()
             
-            currentController?.presentViewController(avPlayerViewController, animated: true){ () -> Void in
+            currentController?.present(avPlayerViewController, animated: true){ () -> Void in
                 avPlayerViewController.player?.play()
             }
         }
@@ -55,7 +55,7 @@ class VideoFromURL: UIImageView {
     
     func getCurrentViewController() -> UIViewController? {
         
-        if let rootController = UIApplication.sharedApplication().windows.first?.rootViewController {
+        if let rootController = UIApplication.shared.windows.first?.rootViewController {
             var currentController = rootController
             while( currentController.presentedViewController != nil ) {
                 currentController = currentController.presentedViewController!

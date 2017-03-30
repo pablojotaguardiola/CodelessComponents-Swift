@@ -39,7 +39,7 @@ class CustomizableImage: UIImageView {
     
     @IBInspectable var shadowColor: UIColor? {
         didSet {
-            layer.shadowColor = shadowColor?.CGColor
+            layer.shadowColor = shadowColor?.cgColor
             updateView()
         }
     }
@@ -62,14 +62,14 @@ class CustomizableImage: UIImageView {
         }
     }
     
-    private func updateView() {
+    fileprivate func updateView() {
         // add the border to subview
         if contentView == nil {
             contentView = UIImageView(frame: CGRect(x: 0, y: 0, width: frame.width, height: frame.height))
             addSubview(contentView!)
         }
         
-        backgroundColor = UIColor.clearColor()
+        backgroundColor = UIColor.clear
         
         layer.masksToBounds = false
         clipsToBounds = false
@@ -80,7 +80,7 @@ class CustomizableImage: UIImageView {
         
         contentView?.layer.cornerRadius = CGFloat(cornerRadius)
         contentView?.layer.borderWidth = borderWidth
-        contentView?.layer.borderColor = borderColor?.CGColor
+        contentView?.layer.borderColor = borderColor?.cgColor
         
         
     }

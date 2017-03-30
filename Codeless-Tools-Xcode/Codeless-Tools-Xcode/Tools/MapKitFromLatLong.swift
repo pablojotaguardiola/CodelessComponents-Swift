@@ -16,7 +16,7 @@ class MapKitFromLatLong: MKMapView {
     
     @IBInspectable var regionRadiusKm: Int = 10
     
-    private var initialized: Bool = false
+    fileprivate var initialized: Bool = false
     
     override func didMoveToWindow() {
         if (!initialized && latitude != 0 || longitude != 0) {

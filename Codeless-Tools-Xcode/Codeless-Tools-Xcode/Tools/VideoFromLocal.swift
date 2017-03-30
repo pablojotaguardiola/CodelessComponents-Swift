@@ -18,8 +18,8 @@ class VideoFromLocal: UIImageView {
     @IBInspectable var autoPlay: Bool = true
     @IBInspectable var playOnTap: Bool = true
     
-    private var showed: Bool = false
-    private var tappedAdded: Bool = false
+    fileprivate var showed: Bool = false
+    fileprivate var tappedAdded: Bool = false
     
     override func didMoveToWindow() {
         if self.autoPlay {
@@ -29,7 +29,7 @@ class VideoFromLocal: UIImageView {
         if !tappedAdded {
             tappedAdded = true
             let tap = UITapGestureRecognizer(target: self, action: #selector(viewTapped))
-            self.userInteractionEnabled = true
+            self.isUserInteractionEnabled = true
             self.addGestureRecognizer(tap)
         }
     }
@@ -43,15 +43,15 @@ class VideoFromLocal: UIImageView {
         if videoName != nil && videoExt != nil && !showed {
             showed = true
             
-            if let path = NSBundle.mainBundle().pathForResource(videoName, ofType: videoExt) {
-                let url = NSURL(fileURLWithPath: path)
-                let avPlayer = AVPlayer(URL: url)
+            if let path = Bundle.main.path(forResource: videoName, ofType: videoExt) {
+                let url = URL(fileURLWithPath: path)
+                let avPlayer = AVPlayer(url: url)
                 let avPlayerViewController = AVPlayerViewController()
                 avPlayerViewController.player = avPlayer
             
                 let currentController = self.getCurrentViewController()
             
-                currentController?.presentViewController(avPlayerViewController, animated: true){ () -> Void in
+                currentController?.present(avPlayerViewController, animated: true){ () -> Void in
                     avPlayerViewController.player?.play()
                 }
             }
@@ -63,7 +63,7 @@ class VideoFromLocal: UIImageView {
     
     func getCurrentViewController() -> UIViewController? {
         
-        if let rootController = UIApplication.sharedApplication().windows.first?.rootViewController {
+        if let rootController = UIApplication.shared.windows.first?.rootViewController {
             var currentController = rootController
             while( currentController.presentedViewController != nil ) {
                 currentController = currentController.presentedViewController!
@@ -74,6 +74,6 @@ class VideoFromLocal: UIImageView {
     }
 }
 
-enum AppError : ErrorType {
-    case InvalidResource(String, String)
+enum AppError : Error {
+    case invalidResource(String, String)
 }
