@@ -4,16 +4,16 @@ Add components to your proyect without write any code:
 <li>Video from URL</li>
 <li>Video from local path</li>
 <li>Image from URL</li>
-#####· WebView from URL
-#####· MapView from Latitude and Longitude
-#####· Customizable ImageView
-#####· More components soon...
+<li>WebView from URL</li>
+<li>MapView from Latitude and Longitude</li>
+<li>Customizable ImageView</li>
+<li>More components soon...</li>
 
-##Installation
+<h3>Installation</h3>
 1- Add "Tools" folder to your proyect.<br>
 2- Follow the instructions below, to add each element.
 
-###*IMPORTANT: You've got to use "https" protocol. To use "http" links, add the field below to "info.plist" file:
+<h2>*IMPORTANT: You've got to use "https" protocol. To use "http" links, add the field below to "info.plist" file:</h2>
 
 ![Alt text](ReadmeImages/Screen0.png?raw=true "Info.plist")
 
