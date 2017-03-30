@@ -17,7 +17,7 @@ Add components to your proyect without write any code:
 
 ![Alt text](ReadmeImages/Screen0.png?raw=true "Info.plist")
 
-##Video from URL
+<br><h2>Video from URL</h2>
 1- Drag and drop a ImageView to your Storyboard.<br>
 2- Asign VideoFromURL.swift as ImageView class in "Identity inspector" tab.<br>
 3- Set Url, and video settings in "Attributes Inspector" tab.<br>
@@ -27,7 +27,7 @@ Add components to your proyect without write any code:
 ![Alt text](ReadmeImages/Screen1.png?raw=true "Video URL")
 
 
-##Video from local
+<br><h2>Video from local</h2>
 1- Drag and drop a ImageView to your Storyboard.<br>
 2- Asign VideoFromLocal.swift as ImageView class in "Identity inspector" tab.<br>
 3- Set Video's name, extension and settings in "Attributes Inspector" tab.<br>
